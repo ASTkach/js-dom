@@ -343,7 +343,7 @@ function chosenPlanet({ title, text, image, diameter, mass, temp, gravity, dista
     <div class="main__content">
         <h1 class="main__title">${title}</h1>
         <p class="main__text">${text}</p>
-        <img src="${image}" alt="${altText}" class="main__img"/>
+        <img src="${image}" alt="${altText}" class="main__img"  width="450", height="450"/>
         <ul class="list">
             <li class="list__item">
                 <p class="list__info">Diameter: <span class="list__value">${diameter} </span>km</p>
